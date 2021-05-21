@@ -73,6 +73,7 @@
         }
         
         $data = parse_csv(
+            // file_get_contents("https://raw.githubusercontent.com/andre-luiz1997/covid_timoteo/master/covid_timoteo_generated.csv"),
             file_get_contents("https://raw.githubusercontent.com/andre-luiz1997/covid_timoteo/master/covid_timoteo_data.csv"),
         );
     ?>
